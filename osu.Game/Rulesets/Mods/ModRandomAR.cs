@@ -8,6 +8,7 @@ public class ModRandomAR : Mod, IApplicableToHitObject
 {
     public override string Name => "Random AR";
     public override string Acronym => "RAR";
+    public override IconUsage? Icon => OsuIcon.Dice;
     public override ModType Type => ModType.DifficultyIncrease;
     public override double ScoreMultiplier => 1;
     
