@@ -3,8 +3,10 @@ using osu.Game.Rulesets.Mods;
 using osu.Game.Rulesets.Objects;
 using System;
 using osu.Game.Beatmaps;
+using osu.Game.Graphics;
+using osu.Framework.Graphics.Sprites;
 
-public class ModRandomAR : Mod, IApplicableToHitObject
+public abstract class ModRandomAR : Mod, IApplicableToHitObject
 {
     public override string Name => "Random AR";
     public override string Acronym => "RAR";
